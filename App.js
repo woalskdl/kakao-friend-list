@@ -66,7 +66,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <FlatList
+      <FlatList // 화면에 보여지는 부분만 render > ScrollView보다 낫다.
         data={isOpened ? friendProfiles : []}
         contentContainerStyle={{paddingHorizontal: 15}}
         keyExtractor={(_, idx) => idx}  // 미사용 변수는 _로 표기

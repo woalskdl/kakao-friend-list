@@ -85,20 +85,6 @@ export default function App() {
       </View>
     </View>
   )
-
-  return (
-    <View style={styles.container}>
-      <View style={{flex: 1, paddingHorizontal: 15}}>
-        
-        <FriendList
-          data={friendProfiles}
-          isOpened={isOpened}
-        />
-
-      </View>
-
-    </View>
-  );
 }
 
 const styles = StyleSheet.create({

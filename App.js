@@ -12,6 +12,8 @@ import FriendList from './src/FriendList';
 import { useState } from 'react';
 import TabBar from './src/TabBar';
 
+// 프로젝트 생성 npx create-expo-app kakao-friend-list
+
 const statusBarHeight = getStatusBarHeight(true);
 const bottomSpace = getBottomSpace();
 
